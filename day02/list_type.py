@@ -51,8 +51,10 @@ def list_update():
 
 if __name__ == '__main__':
     alist = ['a',4,'nihao','8','就是','哈']
+    # 获取list中元素的总数
+    print( len(alist) )
     # list_sel(alist)
     # print(alist)
     # list_del()
     # list_add()
-    list_update()
+    # list_update()

@@ -37,6 +37,32 @@ def for_list2():
     for i in range(a):
         print(alist[i])
 
-if __name__ == '__main__':
+# 嵌套循环
+def for_for():
+    # 如果 print 不换行 : print("你好世界",end=',') 加个 end = ''
+    for i in range(5):
+        print('XXX')
+        for j in range(2):
+            print("你好世界",end=',')
+        print('')
 
-    for_list()
+# 停止所有循环
+def for_break():
+    for i in range(5):
+        print(i)
+        if i ==2 :
+            break
+
+# continue : 停止本次循环,直接开始下一次循环
+def for_continue():
+    for i in range(5):
+        print(i)
+        if i ==2 :
+            continue
+        print('第%s循环'%i)
+        print('')
+
+if __name__ == '__main__':
+    # for_for()
+    # for_break()
+    for_continue()

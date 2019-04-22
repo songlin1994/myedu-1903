@@ -2,7 +2,8 @@
 def if_demo():
     # 3大于2 所以 a 是 True
     a = 3 > 2
-    # a是 True ,所以条件成立 打印 zhen ,如果a是 false  条件不成立 走else 分支 ,打印 jia
+    # a是 True ,所以条件成立 打印 zhen ,
+    # 如果a是 false  条件不成立 走else 分支 ,打印 jia
     if a:
         print('zhen')
     else:
@@ -24,7 +25,6 @@ def ifel_demo():
         print('a是5')
     else:           # 如果 a 都不满足上面的条件 ,则 走else
         print('a是%s'%a)
-
     print('if结束')
 
 

@@ -47,14 +47,21 @@ def list_update():
     alist[0] = 5
     print(alist)
 
+def list_orderby():
+    alist = [2,1,4,3,5,7,6]
+    alist.sort()
+    print(alist)
+    alist.reverse()
+    print(alist)
 
 
 if __name__ == '__main__':
     alist = ['a',4,'nihao','8','就是','哈']
     # 获取list中元素的总数
-    print( len(alist) )
+    # print( len(alist) )
     # list_sel(alist)
     # print(alist)
     # list_del()
     # list_add()
     # list_update()
+    list_orderby()

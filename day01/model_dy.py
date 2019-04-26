@@ -6,5 +6,6 @@ from day01 import base_type
 if __name__ == '__main__':
     # 使用 :  模块名.方法名(参数1,参数2)
     base_type.add_demo(5,10)
+    base_type.add_demo(b=10,a=20)
     value = base_type.jianfa_demo(3, 6)
     print(value)

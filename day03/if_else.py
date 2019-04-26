@@ -27,6 +27,21 @@ def ifel_demo():
         print('a是%s'%a)
     print('if结束')
 
+def if_demo3():
+    a =5
+    if a<8 and a>3 :
+        print('嘎嘎嘎嘎嘎')
+
+
+def if_demo4():
+    a =5
+    if a<8 or a>3 :
+        print('嘎嘎嘎嘎嘎')
+
+def if_demo5():
+    a =5
+    if not a<8 :
+        print('嘎嘎嘎嘎嘎')
 
 if __name__ == '__main__':
-    ifel_demo()
+    if_demo5()

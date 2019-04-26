@@ -85,9 +85,13 @@ if __name__ == '__main__':
     # type_zhuanhuan()
     # str_join()
     # 将减法执行完 返回的值 赋值 给 c   所以c是8
-    c = jianfa_demo(6, 2)
-    # d = 加法执行完返回的值, 但是 加法没有返回值   所以d 是 None
-    d = add_demo(6,2)
-    print(c)
-    print(d)
-    print(type(d))
+    # c = jianfa_demo(6, 2)
+    # # d = 加法执行完返回的值, 但是 加法没有返回值   所以d 是 None
+    # d = add_demo(6,2)
+    # print(c)
+    # print(d)
+    # print(type(d))
+
+    # 字符串是有序的
+    a = 'sjflkjaskjf'
+    print(a[3])

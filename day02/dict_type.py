@@ -2,10 +2,10 @@
 import json
 
 # 全局变量
-adict = {"username":"yansl","password":"123456"}
+adict = {"username":"呀凉生","password":"123456"}
 bdict = {'5':"yansl","password":[2,5]}
 
-cdict_str = '{"username":"yansl","password":"123456"}'
+cdict_str = '{"username":"呀凉生","password":"123456"}'
 
 # 查询字典中的元素
 def dict_sel():
@@ -47,7 +47,7 @@ def dict_add1():
 def dict2str():
     print(type(adict))
     # 将 adict 转换成 字符串类型  再重新赋值 给 adict_str
-    adict_str = json.dumps(adict)
+    adict_str = json.dumps(adict,ensure_ascii=False)
     print(adict_str)
     print(type(adict_str))
 
@@ -65,5 +65,20 @@ if __name__ == '__main__':
     # dict_update()
     # dict_add()
     # dict_add1()
-    # dict2str()
+    dict2str()
     str2dict()
+    # print(adict["username"])
+    # adict.pop("username")
+    # print(adict)
+    # adict['sex'] = 'nan'
+    # print(adict)
+    # adict['password'] = '888888'
+    # print(adict)
+    #
+    # # 方式一
+    # adict.update(bdict)
+    # print(adict)
+    #
+    # # 方式二
+    # d = dict(adict, **bdict)
+    # print(d)
